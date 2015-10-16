@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+'use strict';
 var fs = require('fs');
 var AdmZip = require('adm-zip');
 var meow = require('meow');
