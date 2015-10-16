@@ -6,12 +6,13 @@ var meow = require('meow');
 var cli = meow({
 	help: [
 		'Usage',
-		'  > unzip <filename.zip>',
+		'  > unzip <filename> <folderpath>',
+		'',
+		'	 <filename>   - file you waant to extract',
+		'	 <folderpath> - to which folder you want to extract the files',
 		'',
 		'Example',
-		'  > unzip compressed.zip',
-		'    compressed/file1.txt',
-		'    compressed/file2.txt'
+		'  > unzip filename.zip foldername'
 	]
 });
 var zipFile = cli.input[0];
