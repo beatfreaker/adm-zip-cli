@@ -1,0 +1,40 @@
+{
+  "name": "unzip-cli",
+  "description": "Extract .zip file from command line",
+  "version": "1.0.0",
+  "author": {
+    "name": "Chintan Radia",
+    "email": "radiachints1512@gmail.com",
+    "url": "http://beatfreaker.github.io/"
+  },
+  "bin": {
+    "unzip": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/beatfreaker/unzip-cli/issues"
+  },
+  "homepage": "https://github.com/beatfreaker/unzip-cli",
+  "keywords": [
+    "cli",
+    "extract",
+    "git",
+    "productivity",
+    "unzip",
+    "utility",
+    "zip"
+  ],
+  "license": "MIT",
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beatfreaker/unzip-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "fs": "0.0.2",
+    "meow": "^3.4.2"
+  }
+}
